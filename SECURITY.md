@@ -1,5 +1,75 @@
 # Security Policy
 
+The **Campus Placement Assistant** team takes the security and privacy of student data and system integrity seriously. This document outlines our vulnerability disclosure policy and reporting process.
+
+For internal team architecture guidelines, prompt injection defenses, and pre-release checklists, see [docs/INTERNAL_SECURITY.md](docs/INTERNAL_SECURITY.md).
+
+---
+
+## Supported Versions
+
+Only the current active release and the `main` branch are actively monitored and supported with security updates.
+
+| Version | Supported          |
+| ------- | ------------------ |
+| `main`  | :white_check_mark: |
+| `< 1.0` | :x:                |
+
+---
+
+## Reporting a Vulnerability
+
+If you discover a security vulnerability, **please do not open a public GitHub issue or discuss it in public channels.**
+
+### Preferred Method
+Submit a confidential report via GitHub's [Private Vulnerability Reporting](https://github.com/adharshio/tcs-rag-system/security/advisories/new) feature:
+1. Navigate to the repository's **Security** tab.
+2. Select **Advisories**.
+3. Click **Report a vulnerability**.
+
+### Alternative Method
+If you are unable to use GitHub Security Advisories, contact the security maintainers directly:
+
+* **Adharsh** – [adharshkandath@gmail.com](mailto:adharshkandath@gmail.com)
+* **Aswin Manoj** – [aswinmanojtj@gmail.com](mailto:aswinmanojtj@gmail.com)
+
+---
+
+## What to Include in Your Report
+
+To help us triage and resolve the issue quickly, please include:
+
+- **Summary:** A concise description of the vulnerability.
+- **Affected Component:** The service or endpoint affected (e.g., Document Pipeline, RAG retrieval engine, Backend API, Frontend).
+- **Steps to Reproduce:** Clear, step-by-step instructions, including any sample requests, payloads, or screenshots.
+- **Impact Assessment:** The potential consequence of the vulnerability (e.g., unauthorized data access, prompt injection bypass, denial of service).
+- **Proof of Concept (PoC):** Non-destructive code or test cases demonstrating the vulnerability.
+
+---
+
+## Response Timeline & SLA
+
+We follow coordinated vulnerability disclosure and will do our best to meet the following response targets:
+
+| Stage | Target Timeline |
+|---|---|
+| **Initial Acknowledgement** | Within **24 hours** |
+| **Triage & Severity Assessment** | Within **48 hours** |
+| **Status Updates** | Every **3 to 5 business days** until resolution |
+| **Fix Deployment** | Prioritized according to severity (critical issues targeted within 48–72 hours) |
+
+---
+
+## Responsible Disclosure & Safe Harbor
+
+We ask that you:
+- Give us reasonable time to investigate and resolve an issue before making any details public.
+- Make a good-faith effort not to disrupt availability or access data that does not belong to you (especially student records and personal data).
+- Avoid exploiting the vulnerability beyond what is strictly necessary to confirm its existence.
+
+If you conduct security research within these guidelines, we will not pursue legal action against you.
+# Security Policy
+
 This document covers two things: how to report a vulnerability in the Campus Placement Assistant, and the security rules every team must follow while building it.
 
 ## 1. Reporting a vulnerability
