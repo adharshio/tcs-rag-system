@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Secrets - never commit
+.env
+*.pem
+
+# Evaluation output (keep the folder, not every run)
+results/*
+!results/.gitkeep
+!results/baseline.summary.json
